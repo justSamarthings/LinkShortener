@@ -41,8 +41,9 @@ int convURLtoID(string shortURL) {
 }
 
 int main() {
-
-    string url = "happy";
+    
+    string url;
+    cin>>url;
     cout << "URL is : "<< url << endl;
     cout << "ID from URL is " << convURLtoID(url)<<endl;
     int n = convURLtoID(url);
